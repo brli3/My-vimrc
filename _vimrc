@@ -35,6 +35,7 @@ set bs=2  " fix backspace key
 
 " UI configs
 set number  " show line numbers
+set relativenumber  " show relative line numbers
 set showmode
 set showcmd  " show command in bottom bar
 set cursorline  " highlight current line
@@ -58,12 +59,6 @@ set foldnestmax=10  " 10 nested fold max
 "" commond: zc, zo, zC, zO
 
 " Movement
-nnoremap j gj  " move vertically by visual line
-nnoremap k gk
-nnoremap B ^  " move to begining of line
-nnoremap E $  " move to end of a line
-"nnoremap $ <nop>  " do nothing
-"nnoremap ^ <nop>  " do nothing
 
 " Pathegon
 execute pathogen#infect()
